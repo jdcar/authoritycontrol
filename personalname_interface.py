@@ -4,7 +4,7 @@ from pymarc import MARCReader
 import requests
 
 
-with open('\\\\library.northwestern.edu\cab\StaffDocs\jcs8769\Documents\AuthorityOngoing\Ongoing work\weekof20191229\\boxrecords', 'rb') as fh:
+with open('[FILE NAME HERE]', 'rb') as fh:
 
     reader = MARCReader(fh, to_unicode=True, force_utf8=True)
 
